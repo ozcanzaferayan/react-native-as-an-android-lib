@@ -27,14 +27,14 @@ dependencies {
 
 apply plugin: 'maven-publish'
 
-def libVersion = '1.0.1'
+def libVersion = '1.0.0'
 def libGroupId = 'com.zaferayan.integration'
 def libArtifactId = 'sample-rn-app-flow-library'
 
 def repoUrl = 'https://maven.pkg.github.com/ozcanzaferayan/react-native-as-an-android-lib'
 def repoName = "GitHubPackages"
 def repoUsername = 'ozcanzaferayan'
-def repoPassword = 'GITHUB_ACCESS_TOKEN' // Buraya Github üzerinden aldığınız değeri yapıştırın
+def repoPassword = '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' // Buraya Github üzerinden aldığınız değeri yapıştırın
 
 project.afterEvaluate {
     publishing {
